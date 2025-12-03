@@ -7,7 +7,7 @@ public class ColdSnap {
      *                - "no cold snaps" (if no streak of 2+ exists)
      */
     public static String longestColdSnap(double[] temps) {
-        // TODO: students write this
+        // You must use an enhanced for loop
         return "";
     }
 
@@ -41,3 +41,4 @@ public class ColdSnap {
         System.out.println("Array 4: " + longestColdSnap(temps4));
     }
 }
+
