@@ -21,7 +21,7 @@ public class ColdSnap {
         // Contains two cold snaps (length 2 and length 4);
         // longest = 4.
         double[] temps2 = {
-                16.0, 14.9, 13.5, 20.1, 8.2, 9.0, 10.4, 14.7, 17.3
+                16.0, 14.9, 13.5, 20.1, 18.2, 14.3, 10.4, 14.7, 9.0
         };
 
         // No cold snaps — values drop below 15 but never for 2+ days.
@@ -41,4 +41,5 @@ public class ColdSnap {
         System.out.println("Array 4: " + longestColdSnap(temps4));
     }
 }
+
 
